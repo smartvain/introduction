@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Your Name",
-  description: "Welcome to my portfolio website",
+  title: "Portfolio | Ryuichi Amejima",
+  description: "Fullstack Engineer - coconala Inc.",
 };
 
 export default function RootLayout({
