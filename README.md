@@ -1,33 +1,33 @@
 # Introduction
 
-Ryuichi Amejima's personal introduction site with 3D background.
+3Dバックグラウンドを使用した雨嶋龍一の自己紹介サイトです。
 
-## Demo
+## デモ
 
 https://introduction-ruby-ten.vercel.app
 
-## Tech Stack
+## 技術スタック
 
 - [Next.js](https://nextjs.org/) 16
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) 4
-- [Spline](https://spline.design/) (3D background)
+- [Spline](https://spline.design/) (3Dバックグラウンド)
 
-## Getting Started
+## 開発環境の構築
 
 ```bash
-# Install dependencies
+# 依存関係のインストール
 npm install
 
-# Run development server
+# 開発サーバーの起動
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてください。
 
-## Author
+## 作者
 
-**Ryuichi Amejima**
+**雨嶋 龍一**
 
 - GitHub: [@smartvain](https://github.com/smartvain)
 - Wantedly: [ryuuichi_amejima](https://www.wantedly.com/id/ryuuichi_amejima)
