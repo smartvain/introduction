@@ -1,11 +1,27 @@
+import Image from "next/image";
+
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+    <section className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
+      {/* Spline 3D Background */}
+      <iframe
+        // src="https://my.spline.design/stackableglass-u6r2TcSFhASK82rBjRJjfa1D-s6K/"
+        src="https://my.spline.design/shadowvectorscopycopy-Q1O5B8liGaakufjanO3wBZNi-xHM/"
+        frameBorder="0"
+        className="absolute inset-0 w-full h-full"
+      />
+
+      {/* Content */}
+      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
         <div className="mb-8 animate-fade-in">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-            RA
-          </div>
+          <Image
+            src="/icon.PNG"
+            alt="Ryuichi Amejima"
+            width={128}
+            height={128}
+            className="mx-auto mb-6 rounded-full shadow-lg object-cover"
+            priority
+          />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in-up">
           雨嶋 龍一
