@@ -6,7 +6,8 @@ export function Hero() {
       {/* Spline 3D Background */}
       <iframe
         // src="https://my.spline.design/stackableglass-u6r2TcSFhASK82rBjRJjfa1D-s6K/"
-        src="https://my.spline.design/shadowvectorscopycopy-Q1O5B8liGaakufjanO3wBZNi-xHM/"
+        // src="https://my.spline.design/shadowvectorscopycopy-Q1O5B8liGaakufjanO3wBZNi-xHM/"
+        src="https://my.spline.design/orbitalbluestar-wkHzq8eifOo3S5eIDDlR27nL/"
         frameBorder="0"
         className="absolute inset-0 w-full h-full"
       />
@@ -23,7 +24,7 @@ export function Hero() {
             priority
           />
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in-up">
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in-up drop-shadow-sm">
           Ryuichi Amejima
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
