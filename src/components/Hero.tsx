@@ -24,7 +24,7 @@ export function Hero() {
           />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in-up">
-          雨嶋 龍一
+          Ryuichi Amejima
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
           Fullstack Engineer
