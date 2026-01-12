@@ -42,3 +42,5 @@ next-env.d.ts
 
 # claude code temp files
 tmpclaude-*
+
+.vercel
