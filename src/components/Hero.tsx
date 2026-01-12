@@ -4,17 +4,17 @@ export function Hero() {
       <div className="max-w-4xl mx-auto px-4 text-center">
         <div className="mb-8 animate-fade-in">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-            YN
+            RA
           </div>
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in-up">
-          Your Name
+          雨嶋 龍一
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
-          Web Developer / Designer
+          Fullstack Engineer
         </p>
         <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto animate-fade-in-up animation-delay-400">
-          Creating beautiful and functional web experiences.
+          プロダクトの本質価値を見据えた開発
         </p>
         <div className="mt-10 animate-fade-in-up animation-delay-600">
           <a
