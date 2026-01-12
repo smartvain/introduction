@@ -18,9 +18,9 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
       <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-gray-900 dark:text-white">
+        <a href="#" className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity">
           Ryuichi Amejima
-        </h1>
+        </a>
         <nav className="flex items-center gap-6">
           <a
             href="#about"
