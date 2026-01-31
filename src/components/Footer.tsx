@@ -25,7 +25,7 @@ export function Footer() {
   ];
 
   return (
-    <footer id="contact" className="py-16 bg-[#060c1a] border-t border-white/5">
+    <footer id="contact" className="py-16 bg-[#172033] border-t border-blue-500/10">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
@@ -39,7 +39,7 @@ export function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 text-gray-500 hover:text-white bg-white/5 rounded-lg hover:bg-white/10 transition-all"
+                className="p-3 text-gray-400 hover:text-white bg-white/5 rounded-lg hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(80,130,255,0.1)] transition-all"
                 aria-label={link.name}
               >
                 {link.icon}

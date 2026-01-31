@@ -112,7 +112,7 @@ export function About() {
   return (
     <>
       {/* About */}
-      <section id="about" className="py-24 bg-[#0d1528]">
+      <section id="about" className="py-24 bg-[#1e293b]">
         <div
           ref={aboutSection.ref}
           className={`max-w-4xl mx-auto px-6 transition-all duration-700 ${
@@ -142,7 +142,7 @@ export function About() {
       </section>
 
       {/* Skills */}
-      <section className="py-24 bg-[#0a1020]">
+      <section className="py-24 bg-[#1a2438]">
         <div
           ref={skillsSection.ref}
           className={`max-w-4xl mx-auto px-6 transition-all duration-700 ${
@@ -158,7 +158,7 @@ export function About() {
             {skills.map((skill) => (
               <div
                 key={skill.name}
-                className="group px-4 py-4 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:border-blue-500/30 transition-all text-center"
+                className="group px-4 py-4 bg-white/5 border border-white/10 rounded-lg hover:bg-blue-500/10 hover:border-blue-400/40 hover:shadow-[0_0_20px_rgba(80,130,255,0.12)] transition-all text-center"
               >
                 <p className="text-white font-medium text-sm">{skill.name}</p>
                 <p className="text-gray-500 text-xs mt-1">{skill.category}</p>
@@ -169,7 +169,7 @@ export function About() {
       </section>
 
       {/* Experience */}
-      <section id="experience" className="py-24 bg-[#0d1528]">
+      <section id="experience" className="py-24 bg-[#1e293b]">
         <div
           ref={experienceSection.ref}
           className={`max-w-4xl mx-auto px-6 transition-all duration-700 ${
@@ -185,7 +185,7 @@ export function About() {
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className="group grid md:grid-cols-[200px_1fr] gap-4 md:gap-8 py-8 border-t border-white/10 first:border-t-0"
+                className="group grid md:grid-cols-[200px_1fr] gap-4 md:gap-8 py-8 border-t border-white/10 first:border-t-0 hover:bg-white/[0.02] transition-colors rounded-lg px-4 -mx-4"
               >
                 <div className="flex flex-col">
                   <span className="text-sm text-gray-500 font-mono">
