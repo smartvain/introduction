@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
+import Image from "next/image";
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -28,7 +29,7 @@ export function Hero() {
       onMouseLeave={handleMouseLeave}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #1a3cc0 0%, #0a1f6b 50%, #061452 100%)",
+        background: "linear-gradient(135deg, #2548d4 0%, #1a3cc0 50%, #0f2a8a 100%)",
       }}
     >
       {/* 3D Geometric Shape */}
@@ -50,8 +51,9 @@ export function Hero() {
           <div
             className="absolute inset-0"
             style={{
-              background: "linear-gradient(135deg, rgba(106, 140, 255, 0.35), rgba(74, 108, 247, 0.2))",
+              background: "linear-gradient(135deg, rgba(120, 160, 255, 0.5), rgba(90, 130, 255, 0.3))",
               backdropFilter: "blur(2px)",
+              boxShadow: "0 0 60px rgba(100, 150, 255, 0.15)",
               transform: "translateZ(120px)",
               clipPath: "polygon(15% 0%, 100% 10%, 85% 100%, 0% 90%)",
             }}
@@ -60,7 +62,7 @@ export function Hero() {
           <div
             className="absolute inset-0"
             style={{
-              background: "linear-gradient(135deg, rgba(74, 108, 247, 0.25), rgba(26, 60, 192, 0.15))",
+              background: "linear-gradient(135deg, rgba(90, 130, 255, 0.35), rgba(50, 90, 220, 0.2))",
               transform: "translateZ(-120px) rotateY(180deg)",
               clipPath: "polygon(15% 0%, 100% 10%, 85% 100%, 0% 90%)",
             }}
@@ -71,7 +73,7 @@ export function Hero() {
             style={{
               width: "240px",
               height: "100%",
-              background: "linear-gradient(180deg, rgba(74, 108, 247, 0.3), rgba(26, 60, 192, 0.1))",
+              background: "linear-gradient(180deg, rgba(90, 130, 255, 0.4), rgba(50, 90, 220, 0.15))",
               transform: "translateX(-40px) rotateY(-90deg)",
               transformOrigin: "left center",
             }}
@@ -82,7 +84,7 @@ export function Hero() {
             style={{
               width: "240px",
               height: "100%",
-              background: "linear-gradient(180deg, rgba(106, 140, 255, 0.3), rgba(74, 108, 247, 0.1))",
+              background: "linear-gradient(180deg, rgba(120, 160, 255, 0.4), rgba(90, 130, 255, 0.15))",
               transform: "translateX(40px) rotateY(90deg)",
               transformOrigin: "right center",
             }}
@@ -93,7 +95,7 @@ export function Hero() {
             style={{
               width: "100%",
               height: "240px",
-              background: "linear-gradient(90deg, rgba(106, 140, 255, 0.4), rgba(74, 108, 247, 0.15))",
+              background: "linear-gradient(90deg, rgba(130, 170, 255, 0.5), rgba(90, 130, 255, 0.2))",
               transform: "translateY(-40px) rotateX(90deg)",
               transformOrigin: "center top",
             }}
@@ -103,6 +105,16 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+        <div className="mb-8 animate-fade-in">
+          <Image
+            src="/icon.PNG"
+            alt="Ryuichi Amejima"
+            width={120}
+            height={120}
+            className="mx-auto rounded-full shadow-lg shadow-blue-500/20 ring-2 ring-white/20 object-cover"
+            priority
+          />
+        </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight tracking-tight animate-fade-in-up">
           Ryuichi
           <br />
