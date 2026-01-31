@@ -76,6 +76,33 @@ export function About() {
         "受託案件を中心としたWebアプリケーション開発。多様な技術スタックでの実装経験を積む。",
       isCurrent: false,
     },
+    {
+      title: "Freelance",
+      project: "Video Production",
+      company: "Freelance",
+      period: "2020.06 - 2021.05",
+      description:
+        "動画編集・サムネイル制作・YouTube運用支援を受託。複数案件の進行管理とクライアント折衝を経験。",
+      isCurrent: false,
+    },
+    {
+      title: "Insurance Sales",
+      project: "Corporate & Individual",
+      company: "Manulife Life Insurance",
+      period: "2019.06 - 2020.05",
+      description:
+        "生命保険の法人・個人営業に従事。提案・プレゼン、見積／契約対応を通じて課題ヒアリングと合意形成の基礎を習得。",
+      isCurrent: false,
+    },
+    {
+      title: "Real Estate Sales",
+      project: "Property Brokerage",
+      company: "Plus Nice Inc.",
+      period: "2018.04 - 2019.05",
+      description:
+        "不動産売買仲介営業に従事。顧客対応、資料作成、契約業務を経験。",
+      isCurrent: false,
+    },
   ];
 
   const aboutSection = useInView();
